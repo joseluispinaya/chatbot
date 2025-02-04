@@ -1,0 +1,253 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "¿Cómo estás?",
+        "Hola, ¿qué tal?",
+        "Hey",
+        "¿Alguien por aquí?",
+        "¡Buenas!",
+        "Hola, ¿cómo va todo?",
+        "Buenas noches",
+        "Hola, ¿estás ahí?",
+        "¿Qué tal?",
+        "Hola, necesito ayuda",
+        "¿Hay alguien disponible?",
+        "Hola, ¿me puedes ayudar?"
+      ],
+      "responses": [
+        "¡Hola! Bienvenido a AdoptaMascota. ¿En qué puedo ayudarte?",
+        "¡Hola! Estoy aquí para ayudarte con el proceso de adopción. ¿Qué necesitas?",
+        "¡Bienvenido! ¿Cómo puedo hacer tu día mejor?",
+        "¡Hola! Cuéntame, ¿cómo puedo ayudarte hoy?",
+        "¡Hola! Soy tu asistente virtual de AdoptaMascota. ¿En qué puedo colaborarte hoy?",
+        "¡Buenas! Estoy aquí para guiarte en el proceso de adopción. ¿Qué necesitas?",
+        "¡Hola! ¿Listo para encontrar a tu nuevo mejor amigo? Cuéntame cómo puedo ayudarte."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Chao",
+        "Gracias, hasta pronto",
+        "Bye",
+        "Me voy",
+        "Que tengas un buen día",
+        "Hasta la próxima",
+        "Gracias, adiós",
+        "Fue un placer, hasta luego",
+        "Me retiro, gracias",
+        "Hasta pronto",
+        "Que estés bien",
+        "Nos vemos después"
+      ],
+      "responses": [
+        "¡Adiós! Espero haberte ayudado.",
+        "¡Hasta luego! Si tienes más preguntas, no dudes en volver.",
+        "¡Chao! Que tengas un buen día.",
+        "¡Nos vemos! Espero que adoptes a un hermoso compañero.",
+        "¡Adiós! Recuerda que estamos aquí para ayudarte cuando lo necesites.",
+        "¡Hasta pronto! Esperamos verte pronto con tu nueva mascota.",
+        "¡Que tengas un día increíble!"
+      ]
+    },
+    {
+      "tag": "adopcion_proceso",
+      "patterns": [
+        "¿Cómo funciona el proceso de adopción?",
+        "¿Qué debo hacer para adoptar?",
+        "¿Cuál es el proceso para adoptar una mascota?",
+        "Quiero adoptar, ¿qué necesito?",
+        "¿Cómo puedo adoptar?",
+        "¿Qué pasos debo seguir para adoptar?",
+        "¿Puedo adoptar hoy mismo?",
+        "Dime cómo adopto",
+        "¿Es complicado adoptar?",
+        "¿Cuánto tiempo toma el proceso de adopción?",
+        "¿Necesito cita para adoptar?",
+        "¿Puedo adoptar si no soy de la ciudad?"
+      ],
+      "responses": [
+        "El proceso de adopción es sencillo: primero, debes llenar un formulario de solicitud. Luego, programamos una visita para que conozcas a las mascotas disponibles. Finalmente, si todo está en orden, puedes llevar a tu nueva mascota a casa.",
+        "Para adoptar, necesitas llenar un formulario, presentar una identificación válida y pasar por una entrevista. ¡Estamos aquí para ayudarte en cada paso!",
+        "Primero llena nuestro formulario online, luego agendamos una cita para que conozcas a las mascotas. ¡Así de fácil!",
+        "El proceso de adopción toma entre 3 y 5 días hábiles. ¡Vale la pena esperar por un nuevo amigo!",
+        "No es complicado, solo necesitas compromiso y amor por los animales. ¿Te gustaría empezar?"
+      ]
+    },
+    {
+      "tag": "mascotas_disponibles",
+      "patterns": [
+        "¿Qué mascotas tienen disponibles?",
+        "¿Hay perros para adoptar?",
+        "¿Tienen gatos en adopción?",
+        "Quiero ver las mascotas disponibles",
+        "¿Qué animales tienen para adoptar?",
+        "¿Hay cachorros?",
+        "¿Puedo ver fotos de las mascotas?",
+        "¿Tienen animales pequeños?",
+        "¿Tienen perros grandes?",
+        "¿Hay gatos bebés?",
+        "¿Qué razas de perros tienen?",
+        "¿Tienen mascotas para apartamentos?",
+        "¿Qué animales hay?"
+      ],
+      "responses": [
+        "Actualmente tenemos perros, gatos y otros animales en adopción. Puedes visitar nuestra página web o venir a nuestro centro para conocerlos.",
+        "¡Claro! Tenemos varias mascotas esperando un hogar. ¿Te interesa algún animal en particular?",
+        "Tenemos cachorros, perros adultos, gatitos y algunos conejos. ¿Te gustaría más información sobre alguno?",
+        "Tenemos perros de todas las edades y tamaños, gatos juguetones y hasta conejitos. ¿Qué tipo de mascota buscas?",
+        "Puedes ver fotos y detalles de nuestras mascotas en nuestra página web. ¡Te ayudamos a encontrar a tu compañero ideal!"
+      ]
+    },
+    {
+      "tag": "requisitos_adopcion",
+      "patterns": [
+        "¿Cuáles son los requisitos para adoptar?",
+        "¿Qué necesito para adoptar una mascota?",
+        "¿Hay algún requisito especial?",
+        "¿Qué documentos necesito?",
+        "¿Puedo adoptar si vivo en un apartamento?",
+        "¿Se puede adoptar sin visita domiciliaria?",
+        "¿Debo pagar algo para adoptar?",
+        "¿Necesito tener experiencia con mascotas?",
+        "¿Puedo adoptar si trabajo todo el día?",
+        "¿Qué edad mínima necesito para adoptar?",
+        "¿Necesito tener un espacio cerrado para adoptar?",
+        "¿Es obligatorio tener una casa cercada?"
+      ],
+      "responses": [
+        "Debes ser mayor de edad, presentar identificación válida y garantizar un espacio seguro.",
+        "Se requiere identificación, comprobante de domicilio y un formulario de adopción.",
+        "Necesitamos que tengas un espacio cerrado y seguro para proteger a la mascota.",
+        "Vivir en un apartamento está bien si puedes garantizar un espacio seguro.",
+        "La adopción es gratuita, pero una donación voluntaria es bienvenida.",
+        "Es obligatorio contar con un espacio cerrado para la seguridad de la mascota."
+      ]
+    },
+    {
+      "tag": "donaciones",
+      "patterns": [
+        "¿Aceptan donaciones?",
+        "¿Cómo puedo donar?",
+        "Quiero ayudar con una donación",
+        "¿Qué tipo de donaciones necesitan?",
+        "¿Puedo donar alimentos?",
+        "¿Aceptan juguetes para mascotas?",
+        "¿Dónde hago una donación?",
+        "¿Reciben donaciones online?",
+        "¿Puedo donar medicamentos?",
+        "¿Aceptan ropa para mascotas?",
+        "¿Cómo puedo apoyar económicamente?",
+        "¿Puedo donar para mejorar las instalaciones?",
+        "¿Qué tipo de ayuda necesitan para las mascotas?",
+        "¿Aceptan donaciones de dinero?",
+        "¿Puedo donar materiales para el refugio?"
+      ],
+      "responses": [
+        "¡Claro! Aceptamos donaciones de alimentos, medicamentos, juguetes, ropa para mascotas y más.",
+        "Puedes donar en nuestro centro o a través de nuestra página web. ¡Gracias por tu apoyo!",
+        "Aceptamos donaciones económicas, alimentos, medicamentos y accesorios para mascotas.",
+        "Sí, aceptamos alimentos, juguetes, medicamentos y materiales para el refugio.",
+        "Puedes hacer tu donación directamente en nuestro centro o en línea.",
+        "Sí, aceptamos donaciones en línea. Consulta nuestra web para más detalles.",
+        "Puedes donar medicamentos, alimentos o materiales para mejorar nuestras instalaciones.",
+        "Donaciones económicas nos ayudan a cubrir gastos veterinarios y mejoras del refugio.",
+        "¿Quieres apoyar con materiales? Aceptamos pintura, muebles y otros insumos."
+      ]
+    },
+    {
+      "tag": "visitar_centro",
+      "patterns": [
+        "¿Dónde están ubicados?",
+        "¿Puedo visitar el centro?",
+        "¿Cuál es su dirección?",
+        "Quiero conocer las instalaciones",
+        "¿Qué horarios tienen?",
+        "¿Puedo ir sin cita?",
+        "¿Está abierto los fines de semana?",
+        "¿Tienen estacionamiento?",
+        "¿Cómo llego al centro?",
+        "¿Atienden feriados?",
+        "¿Dónde los encuentro?",
+        "¿Dónde queda el centro?",
+        "¿Tienen mapa de ubicación?",
+        "¿Puedo pasar hoy?",
+        "¿Dónde puedo encontrarlos?"
+      ],
+      "responses": [
+        "Estamos ubicados en la Calle Mascotas Felices 123, en el centro de la ciudad. Aquí tienes nuestra ubicación en Google Maps: https://maps.app.goo.gl/3NNsgDVBdD3Cy6fR6",
+        "Puedes visitarnos en nuestra sede principal de lunes a viernes de 9 am a 6 pm, y los sábados de 10 am a 4 pm. ¡Te esperamos!",
+        "Nuestra dirección es Calle Mascotas Felices 123. Si necesitas ayuda para llegar, aquí tienes el enlace a Google Maps: https://maps.app.goo.gl/3NNsgDVBdD3Cy6fR6",
+        "¡Claro que puedes conocer nuestras instalaciones! Estamos abiertos durante la semana y los sábados. No necesitas cita previa.",
+        "Contamos con estacionamiento gratuito para todos nuestros visitantes. ¡Ven sin preocupaciones!",
+        "Sí, abrimos los sábados de 10 am a 4 pm. Los domingos y feriados estamos cerrados.",
+        "Para visitarnos, no necesitas agendar cita previa. ¡Ven cuando gustes dentro de nuestro horario!",
+        "¿Necesitas más detalles para llegar? Aquí está nuestra ubicación en el mapa: https://maps.app.goo.gl/3NNsgDVBdD3Cy6fR6"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te lo agradezco",
+        "¡Mil gracias!",
+        "¡Qué amable!",
+        "Gracias por la información",
+        "Gracias por tu ayuda",
+        "Te agradezco mucho",
+        "¡Eres increíble!",
+        "¡Gracias por responder!",
+        "¡Qué atento!",
+        "¡Genial, gracias!",
+        "Muy agradecido"
+      ],
+      "responses": [
+        "¡De nada! 😊 Estoy aquí para ayudarte en lo que necesites.",
+        "¡Gracias a ti por confiar en nosotros! Si surge alguna otra duda, no dudes en preguntar.",
+        "¡Siempre es un placer ayudarte! 🚀",
+        "¡No hay de qué! Estamos aquí para hacer tu experiencia más fácil y agradable.",
+        "¡Gracias por tu interés! Si necesitas más información, estoy a tu disposición.",
+        "¡Con gusto! Si necesitas algo más, solo dime. 😉",
+        "¡Me alegra haberte podido ayudar! No dudes en volver si necesitas más asistencia.",
+        "¡Gracias por tus palabras! Aquí estaré cuando me necesites. 🙌"
+      ]
+    },
+    {
+      "tag": "reporte_problema",
+      "patterns": [
+        "Quiero reportar un problema",
+        "Hay un error en la página",
+        "No puedo acceder al formulario",
+        "No funciona el enlace",
+        "Tengo un problema con la adopción",
+        "No recibo respuesta",
+        "¿Dónde puedo quejarme?",
+        "Necesito soporte técnico"
+      ],
+      "responses": [
+        "Lamentamos el inconveniente. Por favor, proporciona más detalles sobre el problema para poder ayudarte.",
+        "Puedes enviarnos un correo a sonozis@adoptamascota.com o llamarnos al 7399726.",
+        "Estamos aquí para ayudarte. ¿Podrías describir el problema con más detalle?",
+        "Gracias por reportarlo. Lo revisaremos de inmediato."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "Lo siento, no entendí tu pregunta. ¿Puedes reformularla?",
+        "No estoy seguro de lo que preguntas. ¿Puedes ser más específico?",
+        "Hmm, no tengo una respuesta para eso. ¿Hay algo más en lo que pueda ayudarte?"
+      ]
+    }
+  ]
+}
